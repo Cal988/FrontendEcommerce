@@ -13,7 +13,6 @@ import AdminProductCard from '../components/AdminProductCard'
 
         setAllProduct(dataResponse?.data || [])
       }
-
       useEffect(()=>{
         fetchAllProduct()
       },[])
